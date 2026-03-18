@@ -6,6 +6,12 @@
 }
 
 /* Body Styling */
+html, body {
+  height: 100%;              /* full height */
+  display: flex;             /* stack children vertically */
+  flex-direction: column;
+}
+
 body {
   font-family: Arial, sans-serif;
   line-height: 1.6;
@@ -45,6 +51,7 @@ nav a:hover {
   text-align: center;
   padding: 60px 20px;
   background: linear-gradient(to right, #e0f2f1, #b2dfdb);
+  flex: 1;                   /* expand to fill space */
 }
 
 .hero h2 {
@@ -79,5 +86,5 @@ footer {
   color: white;
   text-align: center;
   padding: 1em;
-  margin-top: 40px;
+  margin-top: auto;          /* pushes footer to bottom */
 }
