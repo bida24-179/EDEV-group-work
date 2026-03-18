@@ -8,11 +8,11 @@
 /* Body Styling */
 html, body {
   height: 100%;              /* full height */
-  display: flex;             /* stack children vertically */
-  flex-direction: column;
 }
 
 body {
+  display: flex;             /* stack children vertically */
+  flex-direction: column;
   font-family: Arial, sans-serif;
   line-height: 1.6;
   background-color: #f9f9f9;
