@@ -132,3 +132,23 @@ footer {
   padding: 1em;
   margin-top: auto;
 }
+
+/* Responsive Fixes */
+@media (max-width: 768px) {
+  nav a {
+    display: block;
+    margin: 8px 0;
+  }
+
+  .hero h2 {
+    font-size: 1.6em;
+  }
+
+  .hero p {
+    font-size: 1em;
+  }
+
+  .btn {
+    padding: 10px 20px;
+  }
+}
